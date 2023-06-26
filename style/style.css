@@ -1,0 +1,128 @@
+/*ESTILOS GENERALES*/
+
+body {
+    background: linear-gradient(300deg, #000000 30%, #48cae4 100%);
+    color: #f0f8ff;
+} /*fondo de pantalla general*/
+
+h1,
+h2 {
+    text-align: center;
+} /*los h1 y h2 estaran centrados*/
+
+h2 {
+    color: #000000;
+} /*los h2 seran negros*/
+
+h1,
+h3 {
+    text-transform: capitalize;
+} /*la primera letra de cada palabra de los h1 y h3 seran en mayusculas*/
+
+a {
+    text-decoration: none; /*sin subrrallado*/
+    color: #706677; /*color*/
+}
+
+/*HEADER*/
+
+header {
+    background-color: #000000;
+    padding-top: 5px; /*se une por completo a la parte de arriba*/
+}
+
+ul {
+    list-style: none; /*quita los puntos de marcado*/
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    background-color: #0d1b2a;
+}
+
+li {
+    float: left; /*flotan a la izquierda*/
+    padding: 10px;
+    margin: 0 10px; /*sin margen vertical. margen horizontal*/
+}
+
+li a {
+    color: #f0f8ff;
+}
+
+li, a:hover {
+    color: #706677;
+    cursor: pointer;
+}
+
+.active {
+    color: #706677;
+}
+
+/*INICIO*/
+
+article {
+    padding: 2% 0% /*separacion entre articulos. separacion vertical. sin separacion horizontal*/
+}
+
+.figure1 { /*las imagenes se colocan a la derecha con cierto margen*/
+    float: right;
+    margin: 1%;
+}
+
+.figure2 { /*las imagenes se colocan a la izquierda con cierto margen*/
+    float: left;
+    margin: 1%;
+}
+
+img { /*ancho y alto de la imagen*/
+    width: 200px;
+    height: 120px;
+}
+
+/*LETRA*/
+
+.letras {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.letras article {
+    margin-left: 30px;
+}
+
+/*CANCIONES*/
+
+.canciones {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*CONTACTO*/
+
+div, form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+}
+
+input,
+select,
+textarea {
+    width: 200px;
+}
+
+/*FOOTER*/
+
+footer {
+    background-color: #808080;
+    border: solid 1px honeydew; /*borde*/
+    border-left: none; /*elimina el borde izquierdo*/
+    border-right: none; /*elimina el borde derecho*/
+}
+
+footer p {
+    text-align: center; /*alinea los parrafos del footer*/
+    color: #000000;
+}

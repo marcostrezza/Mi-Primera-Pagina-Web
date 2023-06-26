@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--NORMALIZE.CSS-->
+    <link rel="stylesheet" href="style/normalize.css">
+    <!--STYLE.CSS-->
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="shortcut icon" href="assets/complement/img/OIP (2).jpg" type="image/x-icon">
+    <title>MarkBlack</title>
+</head>
+
+<body>
+    <!--HEADER-->
+    <header>
+        <h1>la banda sonora de MGR: revengeance</h1> <!--H1-->
+        <nav> <!--NAV => UL => LI => A => HTML-->
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="letra.html">Letra</a></li>
+                <li><a href="canciones.html" target="_blank">Canciones</a></li> 
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--DIV FORM-->
+    <div>
+        <form>
+        <!--NOMBRE-->
+            <label for="nombre">Nombre: </label>
+            <input type="text" name="nombre" id="nombre" placeholder="Escribe tu Nombre" required>
+        <!--APELLIDO-->
+            <label for="apellido">Apellido: </label>
+            <input type="text" name="apellido" id="apellido" placeholder="Escribe tu Apellido" required>
+        <!--CORREO ELECTRONICO-->
+            <label for="email">Correo Electronico: </label>
+            <input type="email" name="correo" id="correo" placeholder="Correo Electronico" required>
+        <!--PAIS DE ORIGEN-->
+            <label for="pais de origen">Pais de Origen</label>
+            <select name="select" id="select" required>
+        <!--SELECT-->
+                <optgroup label="América del Norte">
+                    <option value="mexico">Mexico</option> <!--NORTE-->
+                </optgroup>
+
+                <optgroup label="América Central"> <!--CENTRAL-->
+                    <option value="costa rica">Costa Rica</option>
+                    <option value="cuba">Cuba</option>
+                    <option value="republica dominicana">República Dominicana</option>
+                    <option value="el salvador">El Salvador</option>
+                    <option value="guatemala">Guatemala</option>
+                    <option value="haiti">Haití</option>
+                    <option value="onduras">Onduras</option>
+                    <option value="nicaragua">Nicaragua</option>
+                    <option value="panama">Panamá</option>
+                </optgroup>
+                
+                <optgroup label="América del Sur"> <!--SUR-->
+                    <option value="argentina" selected>Argentina</option>
+                    <option value="bolivia">Bolivia</option>
+                    <option value="brasil">Brasil</option>
+                    <option value="chile">Chile</option>
+                    <option value="colombia">Colombia</option>
+                    <option value="ecuador">Ecuador</option>
+                    <option value="paraguay">Paraguay</option>
+                    <option value="peru">Peru</option>
+                    <option value="uruguay">Uruguay</option>
+                    <option value="venezuela">Venezuela</option>
+                </optgroup>
+            </select>
+                <!--TEXTAREA-->
+                <textarea name="textarea" id="textarea" placeholder="¿que te parecio esta pagina?"></textarea>
+                <br>
+            <!--CHECKBOX-->
+                <label for="¿?">¿ya conocías el juego de  Metal Gear Rising: Revengeance?</label>
+                <input type="checkbox">
+
+                <label for="¿?2">¿ya habías escuchado estas canciones antes?</label>
+                <input type="checkbox">
+
+                <label for="¿?3">¿conocías su significado?</label>
+                <input type="checkbox">
+            <!--PREGUNTA-->
+                <label for="¿?4">¿cual de estas canciones es tu favorita?</label>
+                <input type="text" name="¿?4" id="¿?4" placeholder="Tu Respuesta">
+            <div class="botones">
+            <!--SUBMIT-->
+                <label class="boton" for="subir"></label>
+                <input class="boton" type="submit" name="enviar" id="enviar">
+            <!--RESET-->
+                <label for="reset"></label>
+                <input type="reset" name="reset" id="reset">
+            </div>
+
+        </form>
+    </div>
+    <!--FOOTER-->
+    <footer>
+        <p>Derechos Reservados</p>
+    </footer>
+    
+</body>
+
+</html>
