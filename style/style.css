@@ -81,12 +81,12 @@ img { /*ancho y alto de la imagen*/
 
 /*LETRA*/
 
-.letras {
+.letras { /*desplazamiento de los articulos dentro de section*/
     display: flex;
     flex-wrap: wrap;
 }
 
-.letras article {
+.letras article { /*borde que separa las letras de las canciones*/
     border-left: 1px solid #000000;
     margin-left: 30px;
     padding-left: 30px;
@@ -94,7 +94,7 @@ img { /*ancho y alto de la imagen*/
 
 /*CANCIONES*/
 
-.canciones {
+.canciones { /*desplaza los audios en columna*/
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -102,7 +102,7 @@ img { /*ancho y alto de la imagen*/
 
 /*CONTACTO*/
 
-div, form {
+div, form { /*desplazamineto centrado y en columna del formulario*/
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -111,7 +111,7 @@ div, form {
 
 input,
 select,
-textarea {
+textarea { /*ancho de los tres elementos*/
     width: 200px;
 }
 
