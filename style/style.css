@@ -115,6 +115,14 @@ textarea { /*ancho de los tres elementos*/
     width: 200px;
 }
 
+input[type="submit"] {
+    background-color: #00ff0096;
+}
+
+input[type="submit"],[type="reset"]:hover {
+    cursor: pointer;
+}
+
 /*FOOTER*/
 
 footer {
